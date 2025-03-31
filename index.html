@@ -41,21 +41,28 @@
     címeket az alábbi táblázat mutatja be:
 
     
-      <table>
+      <table class="frames">
+  
         <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
+          <th>RFC1918</th>
+          <th>IP címtartomány</th>
+          <th>egyedi címek száma</th>
         </tr>
         <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
+          <td>24-bit block</td>
+          <td>10.0.0.0-10.255.255.255
+          </td>
+          <td>16 777 216db</td>
         </tr>
         <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
+          <td>20-bit block</td>
+          <td>172.16.0.0-172.31.255.255 </td>
+          <td>1 048 576 db</td>
+        </tr>
+        <tr>
+          <td>16.bit block</td>
+          <td>192.168.0.0-192.168.255.255</td>
+          <td>65 536db</td>
         </tr>
       </table>
   
@@ -69,7 +76,7 @@
     mindegyik egyedi külső cím mögé van fordítva, ez nem okoz zavart. Akár az összes NAT-ot használó cég belső
     hálózatában lehet minden gép a 10.0.0.0 tartományban, ha kifelé valóban egyedi címmel látszanak. Éppen a címfordítás
     technológiája miatt nem került gyorsabban bevezetésre az IPv6 szabvány, amely kifejlesztésének egyik oka az IPv4
-    fogyatkozó címtartományának kiváltása volt.
+    fogyatkozó címtartományának kiváltása volt. 
 
   </div>
 </body>
