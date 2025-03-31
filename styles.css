@@ -17,6 +17,8 @@ body {
   margin-bottom: 20px;
   padding: 40px;
   width: 980px;
+  text-align: justify;
+  
 }
 
 .frame {
@@ -70,4 +72,11 @@ th{
 td, th{
   padding: 10px;
   text-align: center;
+}
+
+.frames{
+  float: left;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
